@@ -3,27 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Ankan Bhowmik</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contact Me - Ankan Bhowmik</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Contact Me</h1>
         <nav>
+            <h1 class="logo">Ankan Bhowmik</h1>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <h2>Let's Connect!</h2>
-        <p>Email: <a href="mailto:connect.wingsofphysics@gmail.com">connect.wingsofphysics@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/AnkanBhowmik11" target="_blank">AnkanBhowmik11</a></p>
+
+    <section class="contact">
+        <h2>Get In Touch</h2>
+        <p>Feel free to drop me a message!</p>
+        
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="socials">
+            <a href="https://github.com/AnkanBhowmik11" target="_blank">GitHub</a> |
+            <a href="https://linkedin.com/in/ankanbhowmik" target="_blank">LinkedIn</a> |
+            <a href="mailto:ankanbhowmik11@gmail.com">Email Me</a>
+        </div>
     </section>
+
     <footer>
-        <p>© 2025 Ankan Bhowmik</p>
+        <p>&copy; 2025 Ankan Bhowmik. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
